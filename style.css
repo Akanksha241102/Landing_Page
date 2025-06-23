@@ -63,6 +63,9 @@ header {
 
 /* Hero Section */
 .hero {
+      min-height: 100vh; /* full screen */
+  display: flex;
+  align-items: center;
     background: linear-gradient(to right, #1e3c72, #2a5298);
     color: #fff;
     padding: 80px 0;
